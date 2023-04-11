@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Input-avatar</title>
+</head>
+<body>
+  <div class="div-background">
+    <div class="container">
+      <div class="input-wrapper"> 
+        <div class="div-wrapper">
+          <form action="(https://echo.htmlacademy.ru/)" method="post" autocomplete="off">
+            <div class="div-title">
+              <h1 class="title">Account settings</h1>
+              <button class="reset_form" type="reset">x</button>
+            </div>
+            <div class="info_wrapper">
+              <img class="input-img" src="./images/avatar.jpg" width="100" height="100" alt="User image">
+              <label class="user-label" for="username">
+                USERNAME
+              </label>
+              <input class="user-name" id="username" type="text" name="username" 
+              placeholder="Enter your username" required>
+              <div class="surname-wrapper">
+                <div class="wrapper-first-name">
+                  <label class="user-label" for="first_name">
+                    FIRST NAME
+                  </label>
+                  <input class="user-name first-name" id="first_name" type="text" name="first_name" 
+                  placeholder="Enter your first name" required>
+                </div>
+                <div class="div-user-last">
+                  <label class="user-label" for="last_name">
+                    LAST NAME
+                  </label>
+                  <input class="user-name first-name" id="last_name" type="text" name="last_name" 
+                  placeholder="Enter your last name" required>
+                </div>
+              </div>
+              <label class="user-label" for="username_email">
+                EMAIL
+              </label>
+              <input class="user-name" id="username_email" type="email" name="username_email" 
+              placeholder="Enter your email" required>
+              <label class="user-label" for="username_text">
+                BIO
+              </label>
+              <textarea class="user-name text-name" id="username_text" name="user-text" cols="" rows=""
+              placeholder="">Tell us about yourself</textarea>
+            </form>
+          </div>
+          <div class="div-describe">
+            <button class="button-link" type="button">Cancel</button>
+            <button class="button-link" type="submit">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img class="symbol" src="./images/x-symbol.svg" alt="">
+</body>
+</html>

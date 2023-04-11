@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #000;
+}
+input{
+  outline: none;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.input-wrapper {
+  margin-top: 50px;
+  padding: 30px;
+  width: 500px;
+  background-color: yellow;
+}
+.div-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reset_form {
+  background-image: url("./images/x-10328.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.info_wrapper {
+  position: relative;
+  margin-top: 70px;
+  padding: 80px 20px 30px 20px;
+  width: 500px;
+  background-color: #fff;
+}
+.input-img {
+  position: absolute;
+  top: -65px;
+  border-radius: 50%;
+}
+.user-label {
+  color: #000;
+  opacity: 0.5;
+  font-weight: 700px;
+  display: block;
+  margin-bottom: 15px;
+}
+::placeholder {
+  color: #000;
+  opacity: 0.7;
+  font-weight: 600px;
+}
+.user-name {
+  padding: 10px;
+  padding-left: 0;
+  border: none;
+  border-bottom: 1px solid #bebbbb;
+  width: 100%;
+}
+.surname-wrapper {
+  display: flex;
+  border-bottom: 1px solid #bebbbb;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.wrapper-first-name {
+  margin-right: 100px;
+  border-bottom: none;
+}
+.first-name {
+  border-bottom: none;
+}
+.text-name {
+  padding-bottom: 50px;
+}
+.div-user-last {
+  border: none;
+}
+.div-describe {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+.button-link {
+  margin-right: 30px;
+  border: none;
+  background-color: transparent;
+  color: #292929;
+  opacity: 0.7;
+  font-size: 20px;
+  font-weight: 500;
+}
